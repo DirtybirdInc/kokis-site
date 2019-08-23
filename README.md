@@ -32,17 +32,10 @@ A small demo website using firebase hosting and cloud functions.
   { scripts: { "test": "nyc mocha"} }
   ```
   
-### What the release script does
-- pulls the latest version<br>
+### Deployment script
   ```
   $ git pull
-  ```
-- runs all unit tests<br>
-  ```
   $ cd functions
   $ npm test > release_<rid>_unit_tests.txt
-  ```
-- runs firebase deploy<br>
-  ```
   $ firebase deploy > release_<rid>_deploy.txt
   ```

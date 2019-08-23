@@ -15,12 +15,12 @@ A small demo website using firebase hosting and cloud functions.
   ```$ firebase init functions``` **install dependencies**<br>
   ```$ firebase init hosting``` **use "public" as *public directory***
 - Install ```mocha``` Unit Testing and ```nyc``` https://mochajs.org/<br>
-  ```$ cd functions```<br>
-  ```$ npm install --save-dev mocha```<br>
-  ```$ npm install --save-dev nyc```<br>
-  ```$ cd ../public```<br>
-  ```$ npm install --save-dev mocha```<br>
-  ```$ npm install --save-dev nyc```
+  ```$ cd functions<br>
+  $ npm install --save-dev mocha<br>
+  $ npm install --save-dev nyc<br>
+  $ cd ../public<br>
+  $ npm install --save-dev mocha<br>
+  $ npm install --save-dev nyc```
 - Alter ```functions/package.json``` and ```public/package.json```<br> 
   ```{ scripts: { "test": "nyc mocha"} }```
   

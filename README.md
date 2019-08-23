@@ -18,8 +18,8 @@ A small demo website using firebase.
 
 ### What the release script does
 - navigates to the repo
-- clone the repo for first release or pull the latest changes
-- installs the dependencies (including mocha for unit testing and 
-- runs tests ```$ npm test```
+- clones the repo for first release or pulls the latest version
+- installs the dependencies (including mocha for unit testing and nyc istanbul for code coverage)
+- runs all unit tests
 - runs firebase deploy 
 - prints all console outputs to a file 

@@ -44,5 +44,5 @@ A small demo website using firebase hosting and cloud functions.
   ```
 - runs firebase deploy<br>
   ```
-  $ firebase deploy
+  $ firebase deploy > release_<rid>_deploy.txt
   ```

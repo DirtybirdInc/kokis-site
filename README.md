@@ -12,8 +12,8 @@ A small demo website using firebase hosting and cloud functions.
 - Initialise the firebase project<br>
   ```$ git clone <www.this-repo.com> <path/to/local/repo>```<br>
   ```$ cd <path/to/local/repo>```<br>
-  ```$ firebase init functions``` !install dependencies<br>
-  ```$ firebase init hosting``` !use "public" as *public directory*
+  ```$ firebase init functions``` **install dependencies**<br>
+  ```$ firebase init hosting``` **use "public" as *public directory***
 - Install ```mocha``` Unit Testing and ```nyc``` https://mochajs.org/<br>
   ```$ cd functions```<br>
   ```$ npm install --save-dev mocha```<br>
